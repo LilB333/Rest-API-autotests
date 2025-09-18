@@ -2,19 +2,19 @@
 
 ## 🚀 Технологический стек
 
-**Python 3.11+** - язык программирования
-**Pytest** - фреймворк для тестирования
-**Requests** - для отправки HTTP-запросов к веб-сервисам и API
-**Allure Framework** - создание отчетов о тестировании
-**Pytest-ordering** - управление порядком выполнения тестов
+- **Python 3.11+** - язык программирования
+- **Pytest** - фреймворк для тестирования
+- **Requests** - для отправки HTTP-запросов к веб-сервисам и API
+- **Allure Framework** - создание отчетов о тестировании
+- **Pytest-ordering** - управление порядком выполнения тестов
 
 ## 📦 Установка и настройка
 
 ### Предварительные требования
 
-Установите Python 3.11 или выше
-Установите Git
-Установите Allure
+1. Установите Python 3.11 или выше
+2. Установите Git
+3. Установите Allure
 
 ### Клонирование репозитория
 
@@ -69,13 +69,13 @@ pytest tests/test_objects.py::test_get_all_objects
 В файле schemas.py папки utils содержится описание схем для валидации данных. Валидация осуществляется с помощью библиотеки jsonschema путем сравнивания ответа со схемой:
 
 ```python
- try:
-        jsonschema.validate(instance=response_json, schema=schemas.get_all_objects)
-        validation_passed = True
-    except jsonschema.ValidationError:
-        validation_passed = False
-    assert validation_passed
-    print("Ответ API соответствует схеме")
+try:
+   jsonschema.validate(instance=response_json, schema=schemas.get_all_objects)
+   validation_passed = True
+except jsonschema.ValidationError:
+   validation_passed = False
+assert validation_passed
+print("Ответ API соответствует схеме")
 ```
 
 ### Управление порядком тестов
@@ -95,8 +95,8 @@ pytest tests/test_objects.py::test_get_all_objects
   
 ## 🤝 Вклад в проект
 
-Форкните репозиторий
-Создайте feature ветку (git checkout -b feature/amazing-feature)
-Закоммитьте изменения (git commit -m 'Add amazing feature')
-Запушьте ветку (git push origin feature/amazing-feature)
-Откройте Pull Request
+1. Форкните репозиторий
+2. Создайте feature ветку (git checkout -b feature/amazing-feature)
+3. Закоммитьте изменения (git commit -m 'Add amazing feature')
+4. Запушьте ветку (git push origin feature/amazing-feature)
+5. Откройте Pull Request
