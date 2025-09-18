@@ -1,0 +1,21 @@
+
+Response code: 200
+Response text: {"id":"ff8081819782e69e01993e366f5067b9","name":"Apple MacBook Pro 16","createdAt":"2025-09-12T13:56:18.896+00:00","data":{"year":2019,"price":1849.99,"CPU model":"Intel Core i9","Hard disk size":"1 TB"}}
+Response headers: {'Date': 'Fri, 12 Sep 2025 13:56:18 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=AeyD9enK%2FxeO6f63DCg9gk7XWjMp1nGEnGyVI%2FlNKFBe7M7y5oTl0AZe%2BlgTfqwQavH3SFYVJ7jvtOxJ50NYYGLFsvlPPHCvzpfeKr%2FW0Q9BUYs%3D"}]}', 'Content-Encoding': 'gzip', 'CF-RAY': '97dfe849e8485da1-MAD', 'alt-svc': 'h3=":443"; ma=86400'}
+Response cookies: {}
+
+-----
+
+Response code: 200
+Response text: {"id":"ff8081819782e69e01993e36729c67bb","name":"Apple MacBook Pro 16","createdAt":"2025-09-12T13:56:19.740+00:00","data":{"year":2019,"price":1849.99,"CPU model":"Intel Core i9","Hard disk size":"1 TB"}}
+Response headers: {'Date': 'Fri, 12 Sep 2025 13:56:19 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6gzx%2FQ49c67iK22im9Dmrvx9ldBgD0R6kThqLwx3W6GRQDPDlyEm%2B%2F6rFGBP%2BbJ2XMgLHgK2jz7A6RwyLCFJIYnClG379W%2BldWbI60O0QfHupTQ%3D"}]}', 'Content-Encoding': 'gzip', 'CF-RAY': '97dfe8563f6a0423-MAD', 'alt-svc': 'h3=":443"; ma=86400'}
+Response cookies: {}
+
+-----
+
+Response code: 200
+Response text: [{"id":"1","name":"Google Pixel 6 Pro","data":{"color":"Cloudy White","capacity":"128 GB"}},{"id":"2","name":"Apple iPhone 12 Mini, 256GB, Blue","data":null},{"id":"3","name":"Apple iPhone 12 Pro Max","data":{"color":"Cloudy White","capacity GB":512}},{"id":"4","name":"Apple iPhone 11, 64GB","data":{"price":389.99,"color":"Purple"}},{"id":"5","name":"Samsung Galaxy Z Fold2","data":{"price":689.99,"color":"Brown"}},{"id":"6","name":"Apple AirPods","data":{"generation":"3rd","price":120}},{"id":"7","name":"Apple MacBook Pro 16","data":{"year":2019,"price":1849.99,"CPU model":"Intel Core i9","Hard disk size":"1 TB"}},{"id":"8","name":"Apple Watch Series 8","data":{"Strap Colour":"Elderberry","Case Size":"41mm"}},{"id":"9","name":"Beats Studio3 Wireless","data":{"Color":"Red","Description":"High-performance wireless noise cancelling headphones"}},{"id":"10","name":"Apple iPad Mini 5th Gen","data":{"Capacity":"64 GB","Screen size":7.9}},{"id":"11","name":"Apple iPad Mini 5th Gen","data":{"Capacity":"254 GB","Screen size":7.9}},{"id":"12","name":"Apple iPad Air","data":{"Generation":"4th","Price":"419.99","Capacity":"64 GB"}},{"id":"13","name":"Apple iPad Air","data":{"Generation":"4th","Price":"519.99","Capacity":"256 GB"}}]
+Response headers: {'Date': 'Fri, 12 Sep 2025 13:56:21 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Sm4aQrK5ucTCMB6ZOKyhk5W%2BOEPJLXol%2BuLad18CyHJIPZceLiXnyg9KHdaDxp4EKqpj5pvVXeHm1A1RSi2P9HY4R60b9PNRL4357WKvdU1Gc4s%3D"}]}', 'Content-Encoding': 'gzip', 'CF-RAY': '97dfe85b3b9ee0ab-MAD', 'alt-svc': 'h3=":443"; ma=86400'}
+Response cookies: {}
+
+-----

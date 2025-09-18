@@ -1,0 +1,13 @@
+
+-----
+Test: tests/test_objects.py::test_get_all_objects (call)
+Test: 2025-09-18 17:03:29.427227
+Request method: GET
+Request URL: https://api.restful-api.dev/objects
+
+Response code: 405
+Response text: {"error":"We are very sorry but you reached your limit of requests per day. Our current limit is equal to 100 requests per day. The reason for that is the fact that servers cost money and 200 requests per user per day is all that we can afford at the moment. Tomorrow the limit will reset and you will be able to continue. Thanks and have a good day!"}
+Response headers: {'Date': 'Thu, 18 Sep 2025 14:03:29 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=SJE8%2FDHwto43DLzRmIlG7nYWCdpiglo%2Bdyjx96ZM6KWVlRwK08w2rohTsFGMAHUqljZd0gIUOczhaSQm09kW3WmMa54jRc6eDPqytgkA62a9tB8%3D"}]}', 'CF-RAY': '981163164ff0cc67-MAD', 'alt-svc': 'h3=":443"; ma=86400'}
+Response cookies: {}
+
+-----

@@ -1,0 +1,9 @@
+При создании объекта получен ответ:
+ {'id': 'ff8081819782e69e01995d0afee22621', 'name': 'Apple MacBook Pro 16', 'createdAt': '2025-09-18T13:37:05.763+00:00', 'data': {'year': 2019, 'price': 1849.99, 'CPU model': 'Intel Core i9', 'Hard disk size': '1 TB'}}
+Запрос успешен, статус код 200
+При получении объекта по id получен ответ:
+ {'id': 'ff8081819782e69e01995d0afee22621', 'name': 'Apple MacBook Pro 16', 'data': {'year': 2019, 'price': 1849.99, 'CPU model': 'Intel Core i9', 'Hard disk size': '1 TB'}}
+Полученный объект соответствует созданному
+При частичном изменении объекта получен ответ:
+ {'id': 'ff8081819782e69e01995d0afee22621', 'name': 'Updated 2025 GOAT Apple MacBook Pro 16', 'updatedAt': '2025-09-18T13:37:07.706+00:00', 'data': {'year': 2019, 'price': 1849.99, 'CPU model': 'Intel Core i9', 'Hard disk size': '1 TB'}}
+Поле успешно изменено на {'name': 'Updated 2025 GOAT Apple MacBook Pro 16'}

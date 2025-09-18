@@ -1,0 +1,4 @@
+При создании объекта получен ответ:
+ {'id': 'ff8081819782e69e01995d0acb442619', 'name': 'Beats Studio3 Wireless', 'createdAt': '2025-09-18T13:36:52.548+00:00', 'data': {'Color': 'Red', 'Description': 'High-performance wireless noise cancelling headphones'}}
+Запрос успешен, статус код 200
+Добавленный объект соответствует схеме

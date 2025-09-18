@@ -1,0 +1,52 @@
+
+-----
+Test: tests/test_objects.py::test_get_all_objects (call)
+Test: 2025-09-18 16:10:00.852093
+Request method: GET
+Request URL: https://api.restful-api.dev/objects
+
+Response code: 200
+Response text: [{"id":"1","name":"Google Pixel 6 Pro","data":{"color":"Cloudy White","capacity":"128 GB"}},{"id":"2","name":"Apple iPhone 12 Mini, 256GB, Blue","data":null},{"id":"3","name":"Apple iPhone 12 Pro Max","data":{"color":"Cloudy White","capacity GB":512}},{"id":"4","name":"Apple iPhone 11, 64GB","data":{"price":389.99,"color":"Purple"}},{"id":"5","name":"Samsung Galaxy Z Fold2","data":{"price":689.99,"color":"Brown"}},{"id":"6","name":"Apple AirPods","data":{"generation":"3rd","price":120}},{"id":"7","name":"Apple MacBook Pro 16","data":{"year":2019,"price":1849.99,"CPU model":"Intel Core i9","Hard disk size":"1 TB"}},{"id":"8","name":"Apple Watch Series 8","data":{"Strap Colour":"Elderberry","Case Size":"41mm"}},{"id":"9","name":"Beats Studio3 Wireless","data":{"Color":"Red","Description":"High-performance wireless noise cancelling headphones"}},{"id":"10","name":"Apple iPad Mini 5th Gen","data":{"Capacity":"64 GB","Screen size":7.9}},{"id":"11","name":"Apple iPad Mini 5th Gen","data":{"Capacity":"254 GB","Screen size":7.9}},{"id":"12","name":"Apple iPad Air","data":{"Generation":"4th","Price":"419.99","Capacity":"64 GB"}},{"id":"13","name":"Apple iPad Air","data":{"Generation":"4th","Price":"519.99","Capacity":"256 GB"}}]
+Response headers: {'Date': 'Thu, 18 Sep 2025 13:10:01 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=VzTPp9efIKu2rnr%2BFHdSB8DTqb9O8Wh89tgVvgABVrq%2BuVyrjtwWTjROzojXHaQn%2Bjoiuf3TwlkGpI9YlkW3CJVUwxdllaVoSc71g9qwD%2ByzP0E%3D"}]}', 'Content-Encoding': 'gzip', 'CF-RAY': '981114c22f71cc02-MAD', 'alt-svc': 'h3=":443"; ma=86400'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_objects.py::test_add_object[create_object0] (setup)
+Test: 2025-09-18 16:10:07.734973
+Request method: POST
+Request URL: https://api.restful-api.dev/objects
+
+Response code: 200
+Response text: {"id":"ff8081819782e69e01995cf24f9825b9","name":"Apple MacBook Pro 16","createdAt":"2025-09-18T13:10:08.025+00:00","data":{"year":2019,"price":1849.99,"CPU model":"Intel Core i9","Hard disk size":"1 TB"}}
+Response headers: {'Date': 'Thu, 18 Sep 2025 13:10:08 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=3Sk1ByuSc%2FGZeQ8L6DYtbGVEcCviFTks6noBXXTt3gi%2F%2BU6%2BcQ%2Ba8ShsxBn079Mp8Pn2Ofebca2E35sEbJkPSXsacf4S6cv%2FwlJ0fi6JXgfn"}]}', 'Content-Encoding': 'gzip', 'CF-RAY': '981114eb7e66cfbe-MAD', 'alt-svc': 'h3=":443"; ma=86400'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_objects.py::test_add_object[create_object1] (setup)
+Test: 2025-09-18 16:10:08.530208
+Request method: POST
+Request URL: https://api.restful-api.dev/objects
+
+Response code: 200
+Response text: {"id":"ff8081819782e69e01995cf252e825ba","name":"Apple iPad Mini 5th Gen","createdAt":"2025-09-18T13:10:08.872+00:00","data":{"Capacity":"254 GB","Screen size":7.9}}
+Response headers: {'Date': 'Thu, 18 Sep 2025 13:10:08 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6ewRGiyUgYFPlvEexV%2BNsGjaTWZGoxZ09dN4FaNknYtvEKu6qXgU4HTM3hWChkx9XrD%2Bh4zLMNF9HrwrnMbx9DSkDjwpumIBNxImAUmXfnB1wE8%3D"}]}', 'Content-Encoding': 'gzip', 'CF-RAY': '981114f0afefecaa-MAD', 'alt-svc': 'h3=":443"; ma=86400'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_objects.py::test_add_object[create_object2] (setup)
+Test: 2025-09-18 16:10:09.370826
+Request method: POST
+Request URL: https://api.restful-api.dev/objects
+
+Response code: 200
+Response text: {"id":"ff8081819782e69e01995cf2572325bb","name":"Beats Studio3 Wireless","createdAt":"2025-09-18T13:10:09.956+00:00","data":{"Color":"Red","Description":"High-performance wireless noise cancelling headphones"}}
+Response headers: {'Date': 'Thu, 18 Sep 2025 13:10:10 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kzKf6R4WRr6rZcPY%2BZZlBXJfbLUp6twpzjYsCq79pd8ww0H%2FtclnPQeH76KRcDKaHPjLV5osayr0Wr8u%2BLwly6Je4RsZTg6%2FYtQp4lsDMFxAaOo%3D"}]}', 'Content-Encoding': 'gzip', 'CF-RAY': '981114f58962314e-MAD', 'alt-svc': 'h3=":443"; ma=86400'}
+Response cookies: {}
+
+-----
